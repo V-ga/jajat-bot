@@ -104,8 +104,8 @@ func on_bot_ready(bot: DiscordBot):
 
 
 func on_message_create(bot: DiscordBot, message: Message, channel: Dictionary):
-	#if message.content:
-	#	print('got a message:',message.content,'in ',message.channel_id)
+	if message.content:
+		print('got a message:',message.content,'in ',message.channel_id)
 	if message.author.bot:
 		return
 	if message.content.begins_with(prefix):
