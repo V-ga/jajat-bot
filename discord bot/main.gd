@@ -85,7 +85,7 @@ onready var discordbot = $DiscordBot
 func _ready():
 	var discordbot = $DiscordBot
 	 
-	discordbot.TOKEN = "OTU4MzY2NDQ3ODk2MjMxOTY2.YkMSTg.G1CqQ6VWA79qXB_zlU09cQYnQr4"
+	discordbot.TOKEN = "OTU4MzY2NDQ3ODk2MjMxOTY2.GRrl58._8Q7aTCC-GhyaayccJBpd0iDDUuNrtjeTllpfA"
 	discordbot.login()
 	
 	discordbot.connect("bot_ready",self,"on_bot_ready")
